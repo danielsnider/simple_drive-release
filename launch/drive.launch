@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find simple_drive)/launch/drive_teleop.launch"/>
+  <include file="$(find simple_drive)/launch/cmd_vel_mux.launch"/>
+  <include file="$(find simple_drive)/launch/simple_drive.launch"/>
+</launch>
